@@ -1,0 +1,21 @@
+{
+    "name": "lamer1/php-mutex",
+    "type": "library",
+    "license": "MIT",
+    "description": "",
+    "authors": [
+        {
+            "name": "Alexander Saienko",
+            "email": "alexd.saienko@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Lamer1\\Mutex\\": "src/"
+        }
+    }
+}
